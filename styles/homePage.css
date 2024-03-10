@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.header-title {
+   color: #a2a2a2;
+
+}
+
+.homepage {
+    margin-top: -2.5rem;
+    background: #000000;
+}
+.home {
+    height: 100vh;
+    margin-left: 7rem;
+    font-family: "VT323", monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 6rem;
+}
+
+.title {
+    color: #eaeaea;
+    font-size: 2rem;
+}
+.sub-title {
+    width: 60%;
+    color: #a2a2a2;
+    font-size: 2rem;
+    z-index: 3;
+}
+
+.blur-object {
+    position: absolute;
+    top: 12rem;
+    right: 10rem;
+    background-color: #053805;
+    border-radius: 50%;
+    width: 40rem;
+    height: 40rem;
+    filter: blur(150px);
+    z-index: 2;
+}
