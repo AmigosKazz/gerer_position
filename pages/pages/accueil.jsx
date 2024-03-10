@@ -1,35 +1,46 @@
-import React from 'react'
-import Footer from '../composant/Footer'
-import Nav from '../composant/Nav'
+import Image from "next/image";
+import Head from "next/head";
+import Nav from "../composant/Nav";
+import Footer from "../composant/Footer";
 
-function accueil() {
+
+export default function Home() {
   return (
-    <div>
-        <Nav />
-    
-            <div className="body">
-                <h1 className="font-bold text-3xl">Voici notre position dispo</h1>
-                <br />
-                <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Sapiente officia quia molestias minima inventore pariatur.
-                Quod culpa necessitatibus deleniti illo labore nam ex, omnis 
-                cum voluptatum! Aspernatur corrupti exercitationem perspiciatis?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Sapiente officia quia molestias minima inventore pariatur.
-                Quod culpa necessitatibus deleniti illo labore nam ex, omnis 
-                cum voluptatum! Aspernatur corrupti exercitationem perspiciatis?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Sapiente officia quia molestias minima inventore pariatur.
-                Quod culpa necessitatibus deleniti illo labore nam ex, omnis 
-                cum voluptatum! Aspernatur corrupti exercitationem perspiciatis?
-                </p>
-            </div>
+      <>
+          <Nav />
+      <div class="homepage">
+      <Head>
+        <title>Accueil</title>
+        <meta name="description" content="Accueil" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+  
+      <main>
+          <div class="home">
+              <div class="title">
+                  <h1>
+                      BIENVENUE SUR NOTRE SITE
+                  </h1>
+              </div>
+              <div class="sub-title">
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Sapiente officia quia molestias minima inventore pariatur.
+                      Quod culpa necessitatibus deleniti illo labore nam ex, omnis
+                      cum voluptatum! Aspernatur corrupti exercitationem perspiciatis?
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Sapiente officia quia molestias minima inventore pariatur.
+                  </p>
+              </div>
+          </div>
 
-        <Footer />
-        
-        </div>
-  )
+          <div class="blur-object">
+
+          </div>
+
+      </main>
+        <Footer/>
+    </div>
+      </>
+  );
 }
-
-export default accueil

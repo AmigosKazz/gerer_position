@@ -26,7 +26,7 @@ function Inscrire() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <div className="sign-in">
         <h1 className="font-bold text-3xl">Inscription</h1>
         <br />

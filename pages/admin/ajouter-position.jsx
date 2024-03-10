@@ -19,27 +19,27 @@ function ajouterposition() {
                 <input type="text" name="nom_position" />
                 <br />
                 <br />
-                <label htmlFor="prenom">Prenom</label>
+                <label htmlFor="nom">Localisation</label>
                 <br />
-                <input type="text" name="prenom" />
-                <br />
-                <br />
-                <label htmlFor="email">Email</label>
-                <br />
-                <input type="text" name="email" />
+                <input type="text" name="localisation" />
                 <br />
                 <br />
-                <label htmlFor="mdp1">Mot de passe</label>
+                <label htmlFor="Numero">Numero d'espace</label>
                 <br />
-                <input type="password" name="mdp1" />
-                <br />
-                <br />
-                <label htmlFor="mdp2">Confirmation de mot de passe</label>
-                <br />
-                <input type="password" name="mdp2" />
+                <input type="text" name="numero" />
                 <br />
                 <br />
-                <button type="submit">S'inscrire</button>
+                <label htmlFor="email">Capacité</label>
+                <br />
+                <input type="text" name="capacite" />
+                <br />
+                <br />
+                <label htmlFor="prix">Prix</label>
+                <br />
+                <input type="text" name="prix" />
+                <br />
+                <br />
+                <button type="submit">Confirmer</button>
             </form>
         </div>
     </div>

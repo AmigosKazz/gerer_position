@@ -34,7 +34,7 @@ function Login() {
 
   return (
         <div>
-            <Header />
+            {/* <Header /> */}
             
             <div className="connect">
                 <h1 className="font-bold text-3xl">Se connecter</h1>
