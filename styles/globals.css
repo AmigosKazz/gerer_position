@@ -1,114 +1,33 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 header
 {
   width: 100%;
   height: 5vw;
+  color: #a2a2a2;
   margin: 0;
   padding: 0;
-}
-
-.header1
-{
-  margin-top: 1vw;
-}
-
-.header2
-{
-  background-color: black;
-}
-
-.body7
-{
-  text-align: center;
-  /* width: 80%;
-  margin-left: 10%; */
-  background-color: black;
-  margin-top: -2vw;
+  margin-bottom: 0vw;
+  margin-top: 2vw;
+  padding-top: 2rem;
 }
 
 .position
 {
-  width: 25%;
-  height: fit-content;
-  /* border: 3px solid aqua; */
+  width: 20%;
+  height: 20vw;
+  border: 3px solid aqua;
   border-radius: 10px;
   margin-left: 2vw;
   display: inline-block;
-  background-color: rgb(13, 13, 20);
-  margin-bottom: 4vw;
-  color: white;
-  padding: 20px 0 ;
-}
-
-.position *
-{
-  margin-top: 2px;
-  margin-left: 0vw;
-}
-
-.position h3 .icon
-{
-  margin-right: 0.5vw;
-}
-
-.search
-{
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 3vw;
-}
-
-.num
-{
-  padding: 5px;
-  font-size: 16px;
-
-  /* background-color: rgb(29, 25, 19); */
-}
-
-.status
-{
-  color: orange;
-}
-
-.search input
-{
-  width: 70%;
-  height: 2vw;
-  text-align: center;
-}
-
-.search button
-{
-  width: 20%;
-  height: 2.3vw;
-  border: 0;
-  background-color: orange;
-  border-radius: 5px;
-}
-
-.position button
-{
-  width: 40%;
-  height: 2vw;
-  background-color: orange;
-  color: white;
-  border: 0;
-  border-radius: 10px;
-}
-
-.body span
-{
-  color: orange;
+  background-color: rgb(24, 23, 57);
+  margin-bottom: 3vw;
 }
 
 .position:hover
 {
-  border: 2px solid  rgb(26, 68, 68);;
+  box-shadow: 3px 3px 3px 3px aqua;
 }
 
 .head
@@ -119,10 +38,10 @@ header
 
 .logo
 {
+  font-family: "Pacifico", cursive;
   float: left;
   margin-left: 6vw;
-  color: orange;
-  margin-top: 2vw;
+  color: #0e660e;
 }
 .logo:hover
 {
@@ -134,7 +53,6 @@ nav
 {
   float: right;
   margin-right: 10vw;
-  margin-top: 2vw;
 }
 
 ul li
@@ -147,7 +65,7 @@ ul li
 nav ul li a
 {
   text-decoration: none;
-  color: orange;
+  color: #0e660e;
   font-weight: bold;
   font-family: "Titillium Web", sans-serif;
   font-size: 1.4rem;
@@ -163,11 +81,10 @@ nav ul li a:hover
 .connect
 {
   text-align: center;
-  margin-top: 5vw;
 }
 
 
-.login 
+.login
 {
   width: 60%;
   height: 20vw;
@@ -183,7 +100,7 @@ nav ul li a:hover
   float: left;
 }
 
-.login .image img 
+.login .image img
 {
   width: 100%;
   height: 20vw;
@@ -240,7 +157,7 @@ nav ul li a:hover
 .sign-in
 {
   text-align: center;
-  margin-top: 5vw;
+  /* margin-top: 5vw; */
 }
 
 .inscrit form button
@@ -254,7 +171,7 @@ nav ul li a:hover
   border-radius: 5px;
 }
 
-.inscrit 
+.inscrit
 {
   width: 70%;
   height: 34vw;
@@ -269,7 +186,7 @@ nav ul li a:hover
   float: left;
 }
 
-.inscrit .image img 
+.inscrit .image img
 {
   width: 100%;
   height: 20vw;
