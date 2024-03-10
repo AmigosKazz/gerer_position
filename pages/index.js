@@ -17,13 +17,13 @@ export default function Home() {
           <div class="home">
               <div class="title">
                   <h1>
-                      BIENVENUE SUR NOTRE SITE
+                      BIENVENUE <span>SUR</span>  NOTRE <span>SITE</span>
                   </h1>
               </div>
               <div class="sub-title">
                   <p>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Sapiente officia quia molestias minima inventore pariatur.
+                      Sapiente officia quia molestias minima <span>inventore pariatur</span>.
                       Quod culpa necessitatibus deleniti illo labore nam ex, omnis
                       cum voluptatum! Aspernatur corrupti exercitationem perspiciatis?
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
